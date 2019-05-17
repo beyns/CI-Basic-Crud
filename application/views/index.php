@@ -9,7 +9,7 @@
         }
 ?>
   <div class="jumbotron mt-5">
-    <h1 class="display-3">Hello, world! <?php echo isset($firstname) ? $firstname : 'Guest'; ?></h1>
+    <h1 class="display-3">Hello, world!  <?php echo isset($firstname) ? $firstname : 'Guest'; ?></h1>
     <hr class="my-4">
 
     <?php if($user): ?>

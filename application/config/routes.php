@@ -57,3 +57,5 @@ $route['create'] = 'user/create'; //page
 $route['add'] = 'user/add'; //runs insert
 $route['login'] = 'auth/login';
 $route['logout'] = 'auth/logout';
+$route['user/datatables/get']['POST'] = 'user/userTable';
+$route['user/datatables/get']['GET'] = 'user/userTable';
